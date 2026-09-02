@@ -60,6 +60,11 @@ The functional binding for `.kotoba` guests lives in `kotoba-lang/amu`'s
 This repository is the authority/discovery descriptor; the kit is the
 runtime surface.
 
+Provider implementations may also import the pure Kotoba helpers under
+`kotoba/capability/link/frame.kotoba`. They define the standard untagged
+Ethernet pre-FCS bounds and make short-frame padding explicit. The helpers do
+not grant raw-frame authority; the `link/frame` capability remains the gate.
+
 ```sh
 clojure -M:test
 ```
