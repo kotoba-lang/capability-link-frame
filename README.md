@@ -66,5 +66,5 @@ Ethernet pre-FCS bounds and make short-frame padding explicit. The helpers do
 not grant raw-frame authority; the `link/frame` capability remains the gate.
 
 ```sh
-clojure -M:test
+kbb -M:test
 ```
