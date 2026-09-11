@@ -53,7 +53,7 @@ socket has none of that:
 `link/frame` is not yet a member of `kotoba-lang/kotoba-core-contracts`'
 closed actor:host v0 catalog. Registering it there is a separate change to
 that repository and is out of scope here. See
-`test/kotoba/capability/link/frame_test.clj`.
+`test/kotoba/capability/link/frame_test.cljk`.
 
 The functional binding for `.kotoba` guests lives in `kotoba-lang/amu`'s
 `resources/kotoba/lang/capability-kits/link-frame-v1.edn` (capability id 28).
